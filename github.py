@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from keep_alive import keep_alive
 
 
-token = "8083839846:AAHGS_U3Dd7HghKWJdZKD_sXvkeMt2qFCl4"
+token ="_______________"
 
 async def reply_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(f"📩 تم استلام رسالة نصية من المستخدم: {update.effective_user.username}")
